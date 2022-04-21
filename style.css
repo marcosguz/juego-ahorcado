@@ -1,0 +1,95 @@
+body, html{
+  background: #4e54c8;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.titulo {
+  font-size: xx-large;
+  padding: 5px;
+  width: 30vw;
+  margin: auto;
+  font-family: cursive;
+}
+
+.btn {
+  background: #00b7f8;
+  border-bottom: 5px solid #0045a6;
+  border-radius: 50px;
+  box-shadow: 6px 6px 6px #999;
+  color: azure;
+  cursor: pointer;
+  display: block;  
+  font-family: cursive;
+  font-size: 20px;
+  margin: 10px auto;
+  padding: 10px 10px;
+  text-align: center;
+  transition: all 0.2s ease 0s;
+}
+
+.btn:hover{
+	background: #0096f7;
+}
+
+
+.btn2{
+  cursor: not-allowed;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: grey;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 50px;
+  font-family: cursive;
+}
+
+.invisible{
+  display: none;
+}
+
+.inputClass{
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: transparent;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: cursive;
+}
+
+::placeholder{
+  color: lightblue;
+}
+
+canvas{
+  margin-top: 20px;
+}
+
+input:focus {
+  outline: none;
+}
+
+th{
+  border: none;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+td {
+  letter-spacing: 1px;
+  font-size: 20px;
+  text-align: center;
+}
+
+table{
+  table-layout: fixed;
+  margin: auto;
+  font-family: cursive;
+}
